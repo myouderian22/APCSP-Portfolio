@@ -9,8 +9,8 @@ var tableArr1 =
     [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
     ];
 
-for(var c = 0; c < 17; c++){
-    for(var r = 0; r < 7; r++){
+for(var c = 0; c < 7; c++){
+    for(var r = 0; r < 18; r++){
         if(tableArr1[c][r] == 1){
             $('#container').append("<div class = 'element'></div>")
         }
