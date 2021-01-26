@@ -5,7 +5,7 @@ body{
 }
 
 #container{
-    width: 1097px;
+    width: 1080px;
     height: 600px;
     border: 3px solid black;
 }
@@ -15,12 +15,13 @@ body{
     height: 80px;
     background-color: red;
     display: inline-block;
-    border: 1px solid black;
+    outline: 1px solid black;
 }
 
 .empty{
     width: 60px;
     height: 80px;
     display: inline-block;
-    border: 1px;
+    outline: 1px;
 }
+
