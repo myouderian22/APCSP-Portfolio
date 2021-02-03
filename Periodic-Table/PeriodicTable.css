@@ -25,3 +25,34 @@ body{
     outline: 1px;
 }
 
+.nonmetal{
+    background-color: yellow;
+}
+
+.nobleGas{
+    background-color: orange;
+}
+
+.alkaliMetal{
+    background-color: lightcoral;
+}
+
+.alkalineEarthMetal{
+    background-color: plum;
+}
+
+.metaloid{
+    background-color: lightgreen;
+}
+
+.halogen{
+    background-color: lightgoldenrodyellow;
+}
+
+.postTransitionMetal{
+    background-color: greenyellow;
+}
+
+.transitionMetal{
+    background-color: lightskyblue;
+}
