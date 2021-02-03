@@ -13,7 +13,6 @@ body{
 .element{
     width: 60px;
     height: 80px;
-    background-color: red;
     display: inline-block;
     outline: 1px solid black;
 }

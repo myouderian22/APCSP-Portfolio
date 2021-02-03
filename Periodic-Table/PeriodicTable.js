@@ -18,12 +18,12 @@ var tableArr1 =
             {element:-1},
             {element:-1},
             {element:-1},
-            {element:"Helium", class:"Noble Gas"}
+            {element:"Helium", class:"nobleGas"}
         ],
 
         [
-            {element:"Lithium", class:"Alkali Metal"},
-            {element:"Beryllium", class:"Alkaline Earth Metal"},
+            {element:"Lithium", class:"alkaliMetal"},
+            {element:"Beryllium", class:"alkalineEarthMetal"},
             {element:-1},
             {element:-1},
             {element:-1},
@@ -39,12 +39,12 @@ var tableArr1 =
             {element:"Nitrogen", class:"Nonmetal"},
             {element:"Oxygen", class:"Nonmetal"},
             {element:"Fluorine", class:"Halogen"},
-            {element:"Neon", class:"Noble Gas"}
+            {element:"Neon", class:"nobleGas"}
         ],
 
         [
-            {element:"Sodium", class:"Alkali Metal"},
-            {element:"Magnesium", class:"Alkaline Earth Metal"},
+            {element:"Sodium", class:"alkaliMetal"},
+            {element:"Magnesium", class:"alkalineEarthMetal"},
             {element:-1},
             {element:-1},
             {element:-1},
@@ -55,104 +55,110 @@ var tableArr1 =
             {element:-1},
             {element:-1},
             {element:-1},
-            {element:"Aluminium", class:"Post-Transition Metal"},
+            {element:"Aluminium", class:"postTransitionMetal"},
             {element:"Silicon", class:"Metaloid"},
             {element:"Phosphorus", class:"Nonmetal"},
             {element:"Sulfur", class:"Nonmetal"},
             {element:"Chlorine", class:"Halogen"},
-            {element:"Argon", class:"Noble Gas"}
+            {element:"Argon", class:"nobleGas"}
         ],
 
         [
-            {element:"Potassium", class:"Alkali Metal"},
-            {element:"Calium", class:"Alkaline Earth Metal"},
-            {element:"Scandium", class:"Transition Metal"},
-            {element:"Titanium", class:"Transition Metal"},
-            {element:"Vanadium", class:"Transition Metal"},
-            {element:"Chromium", class:"Transition Metal"},
-            {element:"Manganese", class:"Transition Metal"},
-            {element:"Iron", class:"Transition Metal"},
-            {element:"Cobalt", class:"Transition Metal"},
-            {element:"Nickel", class:"Transition Metal"},
-            {element:"Copper", class:"Transition Metal"},
-            {element:"Zinc", class:"Transition Metal"},
-            {element:"Gallium", class:"Post-Transition Metal"},
+            {element:"Potassium", class:"alkaliMetal"},
+            {element:"Calium", class:"alkalineEarthMetal"},
+            {element:"Scandium", class:"transitionMetal"},
+            {element:"Titanium", class:"transitionMetal"},
+            {element:"Vanadium", class:"transitionMetal"},
+            {element:"Chromium", class:"transitionMetal"},
+            {element:"Manganese", class:"transitionMetal"},
+            {element:"Iron", class:"transitionMetal"},
+            {element:"Cobalt", class:"transitionMetal"},
+            {element:"Nickel", class:"transitionMetal"},
+            {element:"Copper", class:"transitionMetal"},
+            {element:"Zinc", class:"transitionMetal"},
+            {element:"Gallium", class:"postTransitionMetal"},
             {element:"Germainium", class:"Metaloid"},
             {element:"Arsenic", class:"Metaloid"},
             {element:"Selenium", class:"Nonmetal"},
             {element:"Bromine", class:"Halogen"},
-            {element:"Krypton", class:"Noble Gas"}
+            {element:"Krypton", class:"nobleGas"}
         ],
 
         [
-            {element:"Rubidium", class:"Alkali Metal"},
-            {element:"Strontium", class:"Alkaline Earth Metal"},
-            {element:"Yttrium", class:"Transition Metal"},
-            {element:"Zirconium", class:"Transition Metal"},
-            {element:"Niobium", class:"Transition Metal"},
-            {element:"Molybdenum", class:"Transition Metal"},
-            {element:"Technetium", class:"Transition Metal"},
-            {element:"Ruthenium", class:"Transition Metal"},
-            {element:"Rhodium", class:"Transition Metal"},
-            {element:"Palladium", class:"Transition Metal"},
-            {element:"Silver", class:"Transition Metal"},
-            {element:"Cadmium", class:"Transition Metal"},
-            {element:"Indium", class:"Post-Transition Metal"},
-            {element:"Tin", class:"Post-Transition Metal"},
+            {element:"Rubidium", class:"alkaliMetal"},
+            {element:"Strontium", class:"alkalineEarthMetal"},
+            {element:"Yttrium", class:"transitionMetal"},
+            {element:"Zirconium", class:"transitionMetal"},
+            {element:"Niobium", class:"transitionMetal"},
+            {element:"Molybdenum", class:"transitionMetal"},
+            {element:"Technetium", class:"transitionMetal"},
+            {element:"Ruthenium", class:"transitionMetal"},
+            {element:"Rhodium", class:"transitionMetal"},
+            {element:"Palladium", class:"transitionMetal"},
+            {element:"Silver", class:"transitionMetal"},
+            {element:"Cadmium", class:"transitionMetal"},
+            {element:"Indium", class:"postTransitionMetal"},
+            {element:"Tin", class:"postTransitionMetal"},
             {element:"Antimony", class:"Metaloid"},
             {element:"Tellerium", class:"Metaloid"},
             {element:"Iodine", class:"Halogen"},
-            {element:"Xenon", class:"Noble Gas"}
+            {element:"Xenon", class:"nobleGas"}
             
         ],
 
         [
-            {element:"Cesium", class:"Alkali Metal"},
-            {element:"Barium", class:"Alkaline Earth Metal"},
-            {element:"Lanthanum", class:"Transition Metal"},
-            {element:"Hafnium", class:"Transition Metal"},
-            {element:"Tantalum", class:"Transition Metal"},
-            {element:"Tungsten", class:"Transition Metal"},
-            {element:"Rhenium", class:"Transition Metal"},
-            {element:"Osmium", class:"Transition Metal"},
-            {element:"Iridium", class:"Transition Metal"},
-            {element:"Platinum", class:"Transition Metal"},
-            {element:"Gold", class:"Transition Metal"},
-            {element:"Mercury", class:"Transition Metal"},
+            {element:"Cesium", class:"alkaliMetal"},
+            {element:"Barium", class:"alkalineEarthMetal"},
+            {element:"Lanthanum", class:"transitionMetal"},
+            {element:"Hafnium", class:"transitionMetal"},
+            {element:"Tantalum", class:"transitionMetal"},
+            {element:"Tungsten", class:"transitionMetal"},
+            {element:"Rhenium", class:"transitionMetal"},
+            {element:"Osmium", class:"transitionMetal"},
+            {element:"Iridium", class:"transitionMetal"},
+            {element:"Platinum", class:"transitionMetal"},
+            {element:"Gold", class:"transitionMetal"},
+            {element:"Mercury", class:"transitionMetal"},
             {element:"Thallium", class:"Post-Tansition Metal"},
-            {element:"Lead", class:"Post-Transition Metal"},
-            {element:"Bismuth", class:"Post-Transition Metal"},
+            {element:"Lead", class:"postTransitionMetal"},
+            {element:"Bismuth", class:"postTransitionMetal"},
             {element:"Polonium", class:"Metaloid"},
             {element:"Astatine", class:"Halogen"},
-            {element:"Radon", class:"Noble Gas"}
+            {element:"Radon", class:"nobleGas"}
         ],
 
         [
-            {element:"Francium", class:"Alkali Metal"},
-            {element:"Radium", class:"Alkaline Earth Metal"},
-            {element:"Actinium", class:"Transition Metal"},
-            {element:"Rutherfordium", class:"Transition Metal"},
-            {element:"Dubnium", class:"Transition Metal"},
-            {element:"Seaborgium", class:"Transition Metal"},
-            {element:"Bohrium", class:"Transition Metal"},
-            {element:"Hassium", class:"Transition Metal"},
-            {element:"Meitnerium", class:"Transition Metal"},
-            {element:"Darmstadium", class:"Transition Metal"},
-            {element:"Roentegium", class:"Transition Metal"},
-            {element:"Copernicium", class:"Transition Metal"},
-            {element:"Nihonium", class:"Post-Transition Metal"},
-            {element:"Flerovium", class:"Post-Transition Metal"},
-            {element:"Moscovium", class:"Post-Transition Metal"},
-            {element:"Livermorium", class:"Post-Transition Metal"},
+            {element:"Francium", class:"alkaliMetal"},
+            {element:"Radium", class:"alkalineEarthMetal"},
+            {element:"Actinium", class:"transitionMetal"},
+            {element:"Rutherfordium", class:"transitionMetal"},
+            {element:"Dubnium", class:"transitionMetal"},
+            {element:"Seaborgium", class:"transitionMetal"},
+            {element:"Bohrium", class:"transitionMetal"},
+            {element:"Hassium", class:"transitionMetal"},
+            {element:"Meitnerium", class:"transitionMetal"},
+            {element:"Darmstadium", class:"transitionMetal"},
+            {element:"Roentegium", class:"transitionMetal"},
+            {element:"Copernicium", class:"transitionMetal"},
+            {element:"Nihonium", class:"postTransitionMetal"},
+            {element:"Flerovium", class:"postTransitionMetal"},
+            {element:"Moscovium", class:"postTransitionMetal"},
+            {element:"Livermorium", class:"postTransitionMetal"},
             {element:"Tennessine", class:"Halogen"},
-            {element:"Oganessum", class:"Noble Gas"}
+            {element:"Oganessum", class:"nobleGas"}
         ],
     ];
 
+
+
 for(var c = 0; c < 7; c++){
     for(var r = 0; r < 18; r++){
-        if(tableArr1[c][r].element !== -1){
-            $('#container').append("<div class = 'element'></div>");
+
+        var currElement = tableArr1[c][r];
+        console.log(currElement.element);
+
+        if(currElement.element != -1){
+            $('container').append("<div class = 'element' + currElement.class + '>' + currElement.element + '</div>")
         }
         else{
             $('#container').append("<div class = 'empty'></div>");
