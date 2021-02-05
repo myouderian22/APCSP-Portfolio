@@ -155,6 +155,7 @@ for(var c = 0; c < 7; c++){
     for(var r = 0; r < 18; r++){
 
         var currElement = tableArr1[c][r];
+        console.log(currElement);
         console.log(currElement.element);
 
         if(currElement.element != -1){
