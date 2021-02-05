@@ -221,7 +221,7 @@ for(var c = 0; c < 10; c++){
         console.log(currElement);
         console.log(currElement.element);
 
-        if(currElement.element != -1){
+        if(currElement.element != -1 && currElement.element != "chemicalBlockGroup"){
             $('#container').append("<div class = 'element " + currElement.class + "'> " + currElement.element + " </div>")
         }
         else{
