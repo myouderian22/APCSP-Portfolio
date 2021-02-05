@@ -1,7 +1,7 @@
 var tableArr1 = 
     [
         [ 
-            {element:"Hydrogen", class:"Nonmetal"},
+            {element:"Hydrogen", class:"nonmetal"},
             {element:-1},
             {element:-1},
             {element:-1},
@@ -34,11 +34,11 @@ var tableArr1 =
             {element:-1},
             {element:-1},
             {element:-1},
-            {element:"Boron", class:"Metaloid"},
-            {element:"Carbon", class:"Nonmetal"},
-            {element:"Nitrogen", class:"Nonmetal"},
-            {element:"Oxygen", class:"Nonmetal"},
-            {element:"Fluorine", class:"Halogen"},
+            {element:"Boron", class:"metaloid"},
+            {element:"Carbon", class:"nonmetal"},
+            {element:"Nitrogen", class:"nonmetal"},
+            {element:"Oxygen", class:"nonmetal"},
+            {element:"Fluorine", class:"halogen"},
             {element:"Neon", class:"nobleGas"}
         ],
 
@@ -56,10 +56,10 @@ var tableArr1 =
             {element:-1},
             {element:-1},
             {element:"Aluminium", class:"postTransitionMetal"},
-            {element:"Silicon", class:"Metaloid"},
-            {element:"Phosphorus", class:"Nonmetal"},
-            {element:"Sulfur", class:"Nonmetal"},
-            {element:"Chlorine", class:"Halogen"},
+            {element:"Silicon", class:"metaloid"},
+            {element:"Phosphorus", class:"nonmetal"},
+            {element:"Sulfur", class:"nonmetal"},
+            {element:"Chlorine", class:"halogen"},
             {element:"Argon", class:"nobleGas"}
         ],
 
@@ -77,10 +77,10 @@ var tableArr1 =
             {element:"Copper", class:"transitionMetal"},
             {element:"Zinc", class:"transitionMetal"},
             {element:"Gallium", class:"postTransitionMetal"},
-            {element:"Germainium", class:"Metaloid"},
-            {element:"Arsenic", class:"Metaloid"},
-            {element:"Selenium", class:"Nonmetal"},
-            {element:"Bromine", class:"Halogen"},
+            {element:"Germainium", class:"metaloid"},
+            {element:"Arsenic", class:"metaloid"},
+            {element:"Selenium", class:"nonmetal"},
+            {element:"Bromine", class:"halogen"},
             {element:"Krypton", class:"nobleGas"}
         ],
 
@@ -99,9 +99,9 @@ var tableArr1 =
             {element:"Cadmium", class:"transitionMetal"},
             {element:"Indium", class:"postTransitionMetal"},
             {element:"Tin", class:"postTransitionMetal"},
-            {element:"Antimony", class:"Metaloid"},
-            {element:"Tellerium", class:"Metaloid"},
-            {element:"Iodine", class:"Halogen"},
+            {element:"Antimony", class:"metaloid"},
+            {element:"Tellerium", class:"metaloid"},
+            {element:"Iodine", class:"halogen"},
             {element:"Xenon", class:"nobleGas"}
             
         ],
@@ -109,7 +109,7 @@ var tableArr1 =
         [
             {element:"Cesium", class:"alkaliMetal"},
             {element:"Barium", class:"alkalineEarthMetal"},
-            {element:"Lanthanum", class:"transitionMetal"},
+            {element:-1},
             {element:"Hafnium", class:"transitionMetal"},
             {element:"Tantalum", class:"transitionMetal"},
             {element:"Tungsten", class:"transitionMetal"},
@@ -119,18 +119,18 @@ var tableArr1 =
             {element:"Platinum", class:"transitionMetal"},
             {element:"Gold", class:"transitionMetal"},
             {element:"Mercury", class:"transitionMetal"},
-            {element:"Thallium", class:"Post-Tansition Metal"},
+            {element:"Thallium", class:"postTransitionMetal"},
             {element:"Lead", class:"postTransitionMetal"},
             {element:"Bismuth", class:"postTransitionMetal"},
-            {element:"Polonium", class:"Metaloid"},
-            {element:"Astatine", class:"Halogen"},
+            {element:"Polonium", class:"metaloid"},
+            {element:"Astatine", class:"halogen"},
             {element:"Radon", class:"nobleGas"}
         ],
 
         [
             {element:"Francium", class:"alkaliMetal"},
             {element:"Radium", class:"alkalineEarthMetal"},
-            {element:"Actinium", class:"transitionMetal"},
+            {element:-1},
             {element:"Rutherfordium", class:"transitionMetal"},
             {element:"Dubnium", class:"transitionMetal"},
             {element:"Seaborgium", class:"transitionMetal"},
@@ -144,14 +144,77 @@ var tableArr1 =
             {element:"Flerovium", class:"postTransitionMetal"},
             {element:"Moscovium", class:"postTransitionMetal"},
             {element:"Livermorium", class:"postTransitionMetal"},
-            {element:"Tennessine", class:"Halogen"},
+            {element:"Tennessine", class:"halogen"},
             {element:"Oganessum", class:"nobleGas"}
+        ],
+
+        [ 
+            {element:-1,},
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:-1}
+        ],
+        
+        [ 
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:"Lanthanum", class:"lanthanide"},
+            {element:"Cerium", class:"lanthanide"},
+            {element:"Praseodymium", class:"lanthanide"},
+            {element:"Neodymium", class:"lanthanide"},
+            {element:"Promethium", class:"lanthanide"},
+            {element:"Samarium", class:"lanthanide"},
+            {element:"Europium", class:"lanthanide"},
+            {element:"Gadolinium", class:"lanthanide"},
+            {element:"Terbium", class:"lanthanide"},
+            {element:"Dysprosium", class:"lanthanide"},
+            {element:"Homium", class:"lanthanide"},
+            {element:"Erbium", class:"lanthanide"},
+            {element:"Thulium", class:"lanthanide"},
+            {element:"Yttrbium", class:"lanthanide"},
+            {element:"Lutecium", class:"lanthanide"}
+        ],
+
+        [ 
+            {element:-1},
+            {element:-1},
+            {element:-1},
+            {element:"Actinium", class:"actinide"},
+            {element:"Thorium", class:"actinide"},
+            {element:"Protactinium", class:"actinide"},
+            {element:"Uranium", class:"actinide"},
+            {element:"Neptunium", class:"actinide"},
+            {element:"Plutonium", class:"actinide"},
+            {element:"Americium", class:"actinide"},
+            {element:"Curium", class:"actinide"},
+            {element:"Berkelium", class:"actinide"},
+            {element:"Californium", class:"actinide"},
+            {element:"Einsteinium", class:"actinide"},
+            {element:"Fermium", class:"actinide"},
+            {element:"Mendelivium", class:"actinide"},
+            {element:"Nobelium", class:"actinide"},
+            {element:"Lawrencium", class:"actinide"}
         ],
     ];
 
 
 
-for(var c = 0; c < 7; c++){
+for(var c = 0; c < 10; c++){
     for(var r = 0; r < 18; r++){
 
         var currElement = tableArr1[c][r];
@@ -159,7 +222,7 @@ for(var c = 0; c < 7; c++){
         console.log(currElement.element);
 
         if(currElement.element != -1){
-            $('container').append("<div class = 'element' + currElement.class + '>' + currElement.element + '</div>")
+            $('#container').append("<div class = 'element " + currElement.class + "'> " + currElement.element + " </div>")
         }
         else{
             $('#container').append("<div class = 'empty'></div>");
