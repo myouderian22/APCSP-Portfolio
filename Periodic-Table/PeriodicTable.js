@@ -55,16 +55,16 @@ var tableArr1 =
             {element:-1},
             {element:-1},
             {element:-1},
-            {element:"Aluminium", class:"postTransitionMetal"},
-            {element:"Silicon", class:"metaloid"},
-            {element:"Phosphorus", class:"nonmetal"},
-            {element:"Sulfur", class:"nonmetal"},
-            {element:"Chlorine", class:"halogen"},
-            {element:"Argon", class:"nobleGas"}
+            {element:"Aluminium", class:"postTransitionMetal", atomicNumber:"13", symbol:"Al"},
+            {element:"Silicon", class:"metaloid", atomicNumber:"14", symbol:"Si"},
+            {element:"Phosphorus", class:"nonmetal", atomicNumber:"15", symbol:"P"},
+            {element:"Sulfur", class:"nonmetal", atomicNumber:"16", symbol:"S"},
+            {element:"Chlorine", class:"halogen", atomicNumber:"17", symbol:"Cl"},
+            {element:"Argon", class:"nobleGas", atomicNumber:"18", symbol:"Ar"}
         ],
 
         [
-            {element:"Potassium", class:"alkaliMetal"},
+            {element:"Potassium", class:"alkaliMetal", atomicNumber:"19", symbol:"K"},
             {element:"Calium", class:"alkalineEarthMetal"},
             {element:"Scandium", class:"transitionMetal"},
             {element:"Titanium", class:"transitionMetal"},
