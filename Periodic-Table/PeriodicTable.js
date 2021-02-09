@@ -1,7 +1,7 @@
 var tableArr1 = 
     [
         [ 
-            {element:"Hydrogen", class:"nonmetal"},
+            {element:"Hydrogen", class:"nonmetal", atomicNumber:"1", symbol:"H"},
             {element:-1},
             {element:-1},
             {element:-1},
@@ -18,12 +18,12 @@ var tableArr1 =
             {element:-1},
             {element:-1},
             {element:-1},
-            {element:"Helium", class:"nobleGas"}
+            {element:"Helium", class:"nobleGas", atomicNumber:"2", symbol:"He"}
         ],
 
         [
-            {element:"Lithium", class:"alkaliMetal"},
-            {element:"Beryllium", class:"alkalineEarthMetal"},
+            {element:"Lithium", class:"alkaliMetal", atomicNumber:"3", symbol:"Li"},
+            {element:"Beryllium", class:"alkalineEarthMetal", atomicNumber:"4", symbol:"Be"},
             {element:-1},
             {element:-1},
             {element:-1},
@@ -34,17 +34,17 @@ var tableArr1 =
             {element:-1},
             {element:-1},
             {element:-1},
-            {element:"Boron", class:"metaloid"},
-            {element:"Carbon", class:"nonmetal"},
-            {element:"Nitrogen", class:"nonmetal"},
-            {element:"Oxygen", class:"nonmetal"},
-            {element:"Fluorine", class:"halogen"},
-            {element:"Neon", class:"nobleGas"}
+            {element:"Boron", class:"metaloid", atomicNumber:"5", symbol:"B"},
+            {element:"Carbon", class:"nonmetal", atomicNumber:"6", symbol:"C"},
+            {element:"Nitrogen", class:"nonmetal", atomicNumber:"7", symbol:"N"},
+            {element:"Oxygen", class:"nonmetal", atomicNumber:"8", symbol:"O"},
+            {element:"Fluorine", class:"halogen", atomicNumber:"9", symbol:"F"},
+            {element:"Neon", class:"nobleGas", atomicNumber:"10", symbol:"Ne"}
         ],
 
         [
-            {element:"Sodium", class:"alkaliMetal"},
-            {element:"Magnesium", class:"alkalineEarthMetal"},
+            {element:"Sodium", class:"alkaliMetal", atomicNumber:"11", symbol:"Na"},
+            {element:"Magnesium", class:"alkalineEarthMetal", atomicNumber:"12", symbol:"Mg"},
             {element:-1},
             {element:-1},
             {element:-1},
@@ -222,7 +222,7 @@ for(var c = 0; c < 10; c++){
         console.log(currElement.element);
 
         if(currElement.element != -1 && currElement.element != "chemicalBlockGroup"){
-            $('#container').append("<div class = 'element " + currElement.class + "'> " + currElement.element + " </div>")
+            $('#container').append("<div class = 'element " + currElement.class + "'> " + currElement.element + currElement.atomicNumber + " </div>")
         }
         else{
             $('#container').append("<div class = 'empty'></div>");
