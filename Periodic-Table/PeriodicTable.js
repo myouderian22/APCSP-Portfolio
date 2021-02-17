@@ -222,10 +222,10 @@ for(var c = 0; c < 10; c++){
         if(currElement.element != -1 && currElement.element != "chemicalBlockGroup"){
 
             var elemStr = 
-                "<div class = 'element " + currElement.class + "'>"
-                    "<div>" + currElement.element + "</div"
-                    "<div>" + currElement.atomicNumber + "</div"
-                "</div>"
+                "<div class = 'element " + currElement.class + "'>" +
+                    "<div>" + currElement.element + "</div" +
+                    "<div>" + currElement.atomicNumber + "</div" +
+                "</div>";
 
             $('#container').append(elemStr);
         }
