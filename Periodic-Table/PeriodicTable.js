@@ -220,7 +220,14 @@ for(var c = 0; c < 10; c++){
         var currElement = tableArr1[c][r];
 
         if(currElement.element != -1 && currElement.element != "chemicalBlockGroup"){
-            $('#container').append("<div class = 'element " + currElement.class + "'> " + currElement.element + currElement.atomicNumber + " </div>")
+
+            var elemStr = 
+                "<div class = 'element " + currElement.class + "'>"
+                    "<div" + currElement.element + "'> </div"
+                    "<div" + currElement.atomicNumber + "'> </div"
+                "</div>"
+
+            $('#container').append(elemStr);
         }
         else{
             $('#container').append("<div class = 'empty'></div>");
