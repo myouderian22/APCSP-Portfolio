@@ -2,38 +2,38 @@ var tableArr1 =
     [
         [ 
             {element:"Hydrogen", class:"nonmetal", atomicNumber:"1", symbol:"H"},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:"checmicalBlockGroup", class:"nonmetal"},
-            {element:"checmicalBlockGroup", class:"nobleGas"},
-            {element:"checmicalBlockGroup", class:"alkaliMetal"},
-            {element:"checmicalBlockGroup", class:"alkalineEarthMetal"},
-            {element:"checmicalBlockGroup", class:"metaloi"},
-            {element:"checmicalBlockGroup", class:"halogen"},
-            {element:"checmicalBlockGroup", class:"postTransitionMetal"},
-            {element:"checmicalBlockGroup", class:"transitionMetal"},
-            {element:"checmicalBlockGroup", class:"lanthanide"},
-            {element:"checmicalBlockGroup", class:"actinide"},
-            {element:-1},
-            {element:-1},
-            {element:-1},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"chemicalBlockGroup", class:"nonmetal"},
+            {element:"chemicalBlockGroup", class:"nobleGas"},
+            {element:"chemicalBlockGroup", class:"alkaliMetal"},
+            {element:"chemicalBlockGroup", class:"alkalineEarthMetal"},
+            {element:"chemicalBlockGroup", class:"metaloi"},
+            {element:"chemicalBlockGroup", class:"halogen"},
+            {element:"chemicalBlockGroup", class:"postTransitionMetal"},
+            {element:"chemicalBlockGroup", class:"transitionMetal"},
+            {element:"chemicalBlockGroup", class:"lanthanide"},
+            {element:"chemicalBlockGroup", class:"actinide"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
             {element:"Helium", class:"nobleGas", atomicNumber:"2", symbol:"He"}
         ],
 
         [
             {element:"Lithium", class:"alkaliMetal", atomicNumber:"3", symbol:"Li"},
             {element:"Beryllium", class:"alkalineEarthMetal", atomicNumber:"4", symbol:"Be"},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
             {element:"Boron", class:"metaloid", atomicNumber:"5", symbol:"B"},
             {element:"Carbon", class:"nonmetal", atomicNumber:"6", symbol:"C"},
             {element:"Nitrogen", class:"nonmetal", atomicNumber:"7", symbol:"N"},
@@ -45,16 +45,16 @@ var tableArr1 =
         [
             {element:"Sodium", class:"alkaliMetal", atomicNumber:"11", symbol:"Na"},
             {element:"Magnesium", class:"alkalineEarthMetal", atomicNumber:"12", symbol:"Mg"},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
             {element:"Aluminium", class:"postTransitionMetal", atomicNumber:"13", symbol:"Al"},
             {element:"Silicon", class:"metaloid", atomicNumber:"14", symbol:"Si"},
             {element:"Phosphorus", class:"nonmetal", atomicNumber:"15", symbol:"P"},
@@ -109,7 +109,7 @@ var tableArr1 =
         [
             {element:"Cesium", class:"alkaliMetal", atomicNumber:"55", symbol:"Cs"},
             {element:"Barium", class:"alkalineEarthMetal", atomicNumber:"56", symbol:"Ba"},
-            {element:-1},
+            {element:"-1"},
             {element:"Hafnium", class:"transitionMetal", atomicNumber:"72", symbol:"Hf"},
             {element:"Tantalum", class:"transitionMetal", atomicNumber:"73", symbol:"Ta"},
             {element:"Tungsten", class:"transitionMetal", atomicNumber:"74", symbol:"W"},
@@ -130,7 +130,7 @@ var tableArr1 =
         [
             {element:"Francium", class:"alkaliMetal", atomicNumber:"87"},
             {element:"Radium", class:"alkalineEarthMetal", atomicNumber:"88"},
-            {element:-1},
+            {element:"-1"},
             {element:"Rutherfordium", class:"transitionMetal", atomicNumber:"104"},
             {element:"Dubnium", class:"transitionMetal", atomicNumber:"105"},
             {element:"Seaborgium", class:"transitionMetal", atomicNumber:"106"},
@@ -149,30 +149,30 @@ var tableArr1 =
         ],
 
         [ 
-            {element:-1,},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1}
+            {element:"-1",},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"}
         ],
         
         [ 
-            {element:-1},
-            {element:-1},
-            {element:-1},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
             {element:"Lanthanum", class:"lanthanide", atomicNumber:"57"},
             {element:"Cerium", class:"lanthanide", atomicNumber:"58"},
             {element:"Praseodymium", class:"lanthanide", atomicNumber:"59"},
@@ -191,9 +191,9 @@ var tableArr1 =
         ],
 
         [ 
-            {element:-1},
-            {element:-1},
-            {element:-1},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
             {element:"Actinium", class:"actinide", atomicNumber:"89"},
             {element:"Thorium", class:"actinide", atomicNumber:"90"},
             {element:"Protactinium", class:"actinide", atomicNumber:"91"},
@@ -219,7 +219,7 @@ for(var c = 0; c < 10; c++){
 
         var currElement = tableArr1[c][r];
 
-        if(currElement.element != -1 && currElement.element != "chemicalBlockGroup"){
+        if(currElement.element != "-1" && currElement.element != "chemicalBlockGroup"){
 
             var elemStr =
                 "<div class = 'element " + currElement.class + "'>" +
@@ -229,16 +229,15 @@ for(var c = 0; c < 10; c++){
 
             $('#container').append(elemStr);
         }
-   //     if(currElement.element = "chemicalBlockGroup"){
-//
-  //          var chemStr =
-  //              "<div class = 'empty'>" +
-  //                  "<div>" + currElement.class + "</div>" +
-  //              "</div>";
-//
-  //          $('#container').append(chemStr);
-//
-  //      }
+
+        if(currElement.element = "chemicalBlockGroup"){
+
+            var chemStr =
+                "<div class = 'empty'></div>";
+
+            $('#container').append(chemStr);
+        }
+
         else{
             $('#container').append("<div class = 'empty'></div>");
         }
