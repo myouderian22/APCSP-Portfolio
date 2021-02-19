@@ -5,16 +5,16 @@ var tableArr1 =
             {element:-1},
             {element:-1},
             {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
-            {element:-1},
+            {element:"checmicalBlockGroup", class:"nonmetal"},
+            {element:"checmicalBlockGroup", class:"nobleGas"},
+            {element:"checmicalBlockGroup", class:"alkaliMetal"},
+            {element:"checmicalBlockGroup", class:"alkalineEarthMetal"},
+            {element:"checmicalBlockGroup", class:"metaloi"},
+            {element:"checmicalBlockGroup", class:"halogen"},
+            {element:"checmicalBlockGroup", class:"postTransitionMetal"},
+            {element:"checmicalBlockGroup", class:"transitionMetal"},
+            {element:"checmicalBlockGroup", class:"lanthanide"},
+            {element:"checmicalBlockGroup", class:"actinide"},
             {element:-1},
             {element:-1},
             {element:-1},
@@ -221,7 +221,7 @@ for(var c = 0; c < 10; c++){
 
         if(currElement.element != -1 && currElement.element != "chemicalBlockGroup"){
 
-            var elemStr = 
+            var elemStr =
                 "<div class = 'element " + currElement.class + "'>" +
                     "<div>" + currElement.element + "</div>" +
                     "<div>" + currElement.atomicNumber + "</div>" +
@@ -229,6 +229,16 @@ for(var c = 0; c < 10; c++){
 
             $('#container').append(elemStr);
         }
+   //     if(currElement.element = "chemicalBlockGroup"){
+//
+  //          var chemStr =
+  //              "<div class = 'empty'>" +
+  //                  "<div>" + currElement.class + "</div>" +
+  //              "</div>";
+//
+  //          $('#container').append(chemStr);
+//
+  //      }
         else{
             $('#container').append("<div class = 'empty'></div>");
         }
