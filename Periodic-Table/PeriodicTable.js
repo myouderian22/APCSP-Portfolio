@@ -223,9 +223,9 @@ for(var c = 0; c < 10; c++){
 
             var elemStr =
                 "<div class = 'element " + currElement.class + "'>" +
-                    "<div class = 'symbol'>" +currElement.symbol + "</div>"
-                    "<div>" + currElement.element + "</div>" +
                     "<div>" + currElement.atomicNumber + "</div>" +
+                    "<div class = 'symbol'>" +currElement.symbol + "</div>" +
+                    "<div>" + currElement.element + "</div>" +
                 "</div>";
 
             $('#container').append(elemStr);
