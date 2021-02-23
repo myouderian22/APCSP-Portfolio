@@ -5,16 +5,16 @@ var tableArr1 =
             {element:"-1"},
             {element:"-1"},
             {element:"-1"},
-            {element:"chemicalBlockGroup", class:"nonmetal"},
-            {element:"chemicalBlockGroup", class:"nobleGas"},
-            {element:"chemicalBlockGroup", class:"alkaliMetal"},
-            {element:"chemicalBlockGroup", class:"alkalineEarthMetal"},
-            {element:"chemicalBlockGroup", class:"metaloi"},
-            {element:"chemicalBlockGroup", class:"halogen"},
-            {element:"chemicalBlockGroup", class:"postTransitionMetal"},
-            {element:"chemicalBlockGroup", class:"transitionMetal"},
-            {element:"chemicalBlockGroup", class:"lanthanide"},
-            {element:"chemicalBlockGroup", class:"actinide"},
+            {element:"chemicalBlockGroup", class:"nonmetal", classRealName:"Nonmetal"},
+            {element:"chemicalBlockGroup", class:"nobleGas", classRealName:"Noble Gas"},
+            {element:"chemicalBlockGroup", class:"alkaliMetal", classRealName:"Alkali Metal"},
+            {element:"chemicalBlockGroup", class:"alkalineEarthMetal", classRealName:"Alkaline Earth Metal"},
+            {element:"chemicalBlockGroup", class:"metaloid", classRealName:"Metaloid"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
+            {element:"-1"},
             {element:"-1"},
             {element:"-1"},
             {element:"-1"},
@@ -26,11 +26,11 @@ var tableArr1 =
             {element:"Beryllium", class:"alkalineEarthMetal", atomicNumber:"4", symbol:"Be"},
             {element:"-1"},
             {element:"-1"},
-            {element:"-1"},
-            {element:"-1"},
-            {element:"-1"},
-            {element:"-1"},
-            {element:"-1"},
+            {element:"chemicalBlockGroup", class:"halogen", classRealName:"Halogen"},
+            {element:"chemicalBlockGroup", class:"postTransitionMetal", classRealName:"Post-Transition Metal"},
+            {element:"chemicalBlockGroup", class:"transitionMetal", classRealName:"Transition Metal"},
+            {element:"chemicalBlockGroup", class:"lanthanide", classRealName:"Lanthanide"},
+            {element:"chemicalBlockGroup", class:"actinide", classRealName:"Actinide"},
             {element:"-1"},
             {element:"-1"},
             {element:"-1"},
@@ -230,10 +230,12 @@ for(var c = 0; c < 10; c++){
             $('#container').append(elemStr);
         }
 
-        if(currElement.element = "chemicalBlockGroup"){
+        else if(currElement.element == "chemicalBlockGroup"){
 
             var chemStr =
-                "<div class = 'empty'></div>";
+                "<div class = 'chemicalBlockGroup " + currElement.class + "'>" +
+                    "<div class = 'font'>" + currElement.classRealName + "</div>" +
+                "</div>";
 
             $('#container').append(chemStr);
         }

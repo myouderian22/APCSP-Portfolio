@@ -5,28 +5,35 @@ body{
 }
 
 #container{
-    width: 1260px;
-    height: 800px;
+    width: 1422px;
+    height: 806px;
     border: 3px solid black;
 }
 
 .element{
-    width: 70px;
-    height: 75px;
+    width: 79px;
+    height: 77px;
     display: inline-block;
     outline: 1px solid black;
     overflow: hidden;
     font-size: 12px;
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .chemicalBlockGroup{
-    
+    width: 79px;
+    height: 77px;
+    display: inline-block;
+    outline: 1px solid black;
+    font-family: "Monaco", monospace;
+    overflow: hidden;
+    text-align: center;
 }
 
 .empty{
-    width: 70px;
-    height: 75px;
+    width: 79px;
+    height: 77px;
     display: inline-block;
     outline: 1px;
 }
@@ -69,4 +76,9 @@ body{
 
 .actinide{
     background-color: lightsteelblue;
+}
+
+.font{
+    font-size: 11px;
+    font-weight: bold;
 }
