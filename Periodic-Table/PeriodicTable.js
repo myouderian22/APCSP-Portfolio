@@ -80,7 +80,7 @@ var tableArr1 =
             {element:"Germainium", class:"metaloid", atomicNumber:"32", symbol:"Ge"},
             {element:"Arsenic", class:"metaloid", atomicNumber:"33", symbol:"As"},
             {element:"Selenium", class:"nonmetal", atomicNumber:"34", symbol:"Se"},
-            {element:"Bromine", class:"halogen", atomicNumber:"35", symnol:"Br"},
+            {element:"Bromine", class:"halogen", atomicNumber:"35", symbol:"Br"},
             {element:"Krypton", class:"nobleGas", atomicNumber:"36", symbol:"Kr"}
         ],
 
@@ -128,24 +128,24 @@ var tableArr1 =
         ],
 
         [
-            {element:"Francium", class:"alkaliMetal", atomicNumber:"87"},
-            {element:"Radium", class:"alkalineEarthMetal", atomicNumber:"88"},
+            {element:"Francium", class:"alkaliMetal", atomicNumber:"87", symbol:"Fr"},
+            {element:"Radium", class:"alkalineEarthMetal", atomicNumber:"88", symbol:"Ra"},
             {element:"-1"},
-            {element:"Rutherfordium", class:"transitionMetal", atomicNumber:"104"},
-            {element:"Dubnium", class:"transitionMetal", atomicNumber:"105"},
-            {element:"Seaborgium", class:"transitionMetal", atomicNumber:"106"},
-            {element:"Bohrium", class:"transitionMetal", atomicNumber:"107"},
-            {element:"Hassium", class:"transitionMetal", atomicNumber:"108"},
-            {element:"Meitnerium", class:"transitionMetal", atomicNumber:"109"},
-            {element:"Darmstadium", class:"transitionMetal", atomicNumber:"110"},
-            {element:"Roentegium", class:"transitionMetal", atomicNumber:"111"},
-            {element:"Copernicium", class:"transitionMetal", atomicNumber:"112"},
-            {element:"Nihonium", class:"postTransitionMetal", atomicNumber:"113"},
-            {element:"Flerovium", class:"postTransitionMetal", atomicNumber:"114"},
-            {element:"Moscovium", class:"postTransitionMetal", atomicNumber:"115"},
-            {element:"Livermorium", class:"postTransitionMetal", atomicNumber:"116"},
-            {element:"Tennessine", class:"halogen", atomicNumber:"117"},
-            {element:"Oganessum", class:"nobleGas", atomicNumber:"118"}
+            {element:"Rutherfordium", class:"transitionMetal", atomicNumber:"104", symbol:"Rf"},
+            {element:"Dubnium", class:"transitionMetal", atomicNumber:"105", symbol:"Db"},
+            {element:"Seaborgium", class:"transitionMetal", atomicNumber:"106", symbol:"Sg"},
+            {element:"Bohrium", class:"transitionMetal", atomicNumber:"107", symbol:"Bh"},
+            {element:"Hassium", class:"transitionMetal", atomicNumber:"108", symbol:"Hs"},
+            {element:"Meitnerium", class:"transitionMetal", atomicNumber:"109", symbol:"Mt"},
+            {element:"Darmstadium", class:"transitionMetal", atomicNumber:"110", symbol:"Ds"},
+            {element:"Roentegium", class:"transitionMetal", atomicNumber:"111", symbol:"Rg"},
+            {element:"Copernicium", class:"transitionMetal", atomicNumber:"112", symbol:"Cn"},
+            {element:"Nihonium", class:"postTransitionMetal", atomicNumber:"113", symbol:"Nh"},
+            {element:"Flerovium", class:"postTransitionMetal", atomicNumber:"114", symbol:"Fl"},
+            {element:"Moscovium", class:"postTransitionMetal", atomicNumber:"115", symbol:"Mc"},
+            {element:"Livermorium", class:"postTransitionMetal", atomicNumber:"116", symbol:"Ts"},
+            {element:"Tennessine", class:"halogen", atomicNumber:"117", symbol:"Ts"},
+            {element:"Oganessum", class:"nobleGas", atomicNumber:"118", symbol:"Og"}
         ],
 
         [ 
@@ -173,42 +173,42 @@ var tableArr1 =
             {element:"-1"},
             {element:"-1"},
             {element:"-1"},
-            {element:"Lanthanum", class:"lanthanide", atomicNumber:"57"},
-            {element:"Cerium", class:"lanthanide", atomicNumber:"58"},
-            {element:"Praseodymium", class:"lanthanide", atomicNumber:"59"},
-            {element:"Neodymium", class:"lanthanide", atomicNumber:"60"},
-            {element:"Promethium", class:"lanthanide", atomicNumber:"61"},
-            {element:"Samarium", class:"lanthanide", atomicNumber:"62"},
-            {element:"Europium", class:"lanthanide", atomicNumber:"63"},
-            {element:"Gadolinium", class:"lanthanide", atomicNumber:"64"},
-            {element:"Terbium", class:"lanthanide", atomicNumber:"65"},
-            {element:"Dysprosium", class:"lanthanide", atomicNumber:"66"},
-            {element:"Homium", class:"lanthanide", atomicNumber:"67"},
-            {element:"Erbium", class:"lanthanide", atomicNumber:"68"},
-            {element:"Thulium", class:"lanthanide", atomicNumber:"69"},
-            {element:"Yttrbium", class:"lanthanide", atomicNumber:"70"},
-            {element:"Lutecium", class:"lanthanide", atomicNumber:"71"}
+            {element:"Lanthanum", class:"lanthanide", atomicNumber:"57", symbol:"La"},
+            {element:"Cerium", class:"lanthanide", atomicNumber:"58", symbol:"Ce"},
+            {element:"Praseodymium", class:"lanthanide", atomicNumber:"59", symbol:"Pr"},
+            {element:"Neodymium", class:"lanthanide", atomicNumber:"60", symbol:"Nd"},
+            {element:"Promethium", class:"lanthanide", atomicNumber:"61", symbol:"Pm"},
+            {element:"Samarium", class:"lanthanide", atomicNumber:"62", symbol:"Sm"},
+            {element:"Europium", class:"lanthanide", atomicNumber:"63", symbol:"Eu"},
+            {element:"Gadolinium", class:"lanthanide", atomicNumber:"64", symbol:"Gd"},
+            {element:"Terbium", class:"lanthanide", atomicNumber:"65", symbol:"Tb"},
+            {element:"Dysprosium", class:"lanthanide", atomicNumber:"66", symbol:"Dy"},
+            {element:"Homium", class:"lanthanide", atomicNumber:"67", symbol:"Ho"},
+            {element:"Erbium", class:"lanthanide", atomicNumber:"68", symbol:"Er"},
+            {element:"Thulium", class:"lanthanide", atomicNumber:"69", symbol:"Tm"},
+            {element:"Yttrbium", class:"lanthanide", atomicNumber:"70", symbol:"Yb"},
+            {element:"Lutecium", class:"lanthanide", atomicNumber:"71", symbol:"Lu"}
         ],
 
         [ 
             {element:"-1"},
             {element:"-1"},
             {element:"-1"},
-            {element:"Actinium", class:"actinide", atomicNumber:"89"},
-            {element:"Thorium", class:"actinide", atomicNumber:"90"},
-            {element:"Protactinium", class:"actinide", atomicNumber:"91"},
-            {element:"Uranium", class:"actinide", atomicNumber:"92"},
-            {element:"Neptunium", class:"actinide", atomicNumber:"93"},
-            {element:"Plutonium", class:"actinide", atomicNumber:"94"},
-            {element:"Americium", class:"actinide", atomicNumber:"95"},
-            {element:"Curium", class:"actinide", atomicNumber:"96"},
-            {element:"Berkelium", class:"actinide", atomicNumber:"97"},
-            {element:"Californium", class:"actinide", atomicNumber:"98"},
-            {element:"Einsteinium", class:"actinide", atomicNumber:"99"},
-            {element:"Fermium", class:"actinide", atomicNumber:"100"},
-            {element:"Mendelivium", class:"actinide", atomicNumber:"101"},
-            {element:"Nobelium", class:"actinide", atomicNumber:"102"},
-            {element:"Lawrencium", class:"actinide", atomicNumber:"103"}
+            {element:"Actinium", class:"actinide", atomicNumber:"89", symbol:"Ac"},
+            {element:"Thorium", class:"actinide", atomicNumber:"90", symbol:"Th"},
+            {element:"Protactinium", class:"actinide", atomicNumber:"91", symbol:"Pa"},
+            {element:"Uranium", class:"actinide", atomicNumber:"92", symbol:"U"},
+            {element:"Neptunium", class:"actinide", atomicNumber:"93", symbol:"Np"},
+            {element:"Plutonium", class:"actinide", atomicNumber:"94", symbol:"Pu"},
+            {element:"Americium", class:"actinide", atomicNumber:"95", symbol:"Am"},
+            {element:"Curium", class:"actinide", atomicNumber:"96", symbol:"Cm"},
+            {element:"Berkelium", class:"actinide", atomicNumber:"97", symbol:"Bk"},
+            {element:"Californium", class:"actinide", atomicNumber:"98", symbol:"Cf"},
+            {element:"Einsteinium", class:"actinide", atomicNumber:"99", symbol:"Es"},
+            {element:"Fermium", class:"actinide", atomicNumber:"100", symbol:"Fm"},
+            {element:"Mendelivium", class:"actinide", atomicNumber:"101", symbol:"Md"},
+            {element:"Nobelium", class:"actinide", atomicNumber:"102", symbol:"No"},
+            {element:"Lawrencium", class:"actinide", atomicNumber:"103", symbol:"Lr"}
         ],
     ];
 
@@ -222,8 +222,8 @@ for(var c = 0; c < 10; c++){
         if(currElement.element != "-1" && currElement.element != "chemicalBlockGroup"){
 
             var elemStr =
-                "<div class = 'element " + currElement.class + "'>" +
-                    "<div>" + currElement.atomicNumber + "</div>" +
+                "<div class = 'element elemFont " + currElement.class + "'>" +
+                    "<div class = 'numFont'>" + currElement.atomicNumber + "</div>" +
                     "<div class = 'symbol'>" +currElement.symbol + "</div>" +
                     "<div>" + currElement.element + "</div>" +
                 "</div>";

@@ -16,7 +16,6 @@ body{
     display: inline-block;
     outline: 1px solid black;
     overflow: hidden;
-    font-size: 12px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -86,4 +85,14 @@ body{
 .symbol{
     font-size: 30px;
     font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.elemFont{
+    font-size: 11px;
+}
+
+.numFont{
+    font-size: 15px;
+    padding-bottom: 3px;
 }
