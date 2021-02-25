@@ -6,13 +6,13 @@ body{
 
 #container{
     width: 1422px;
-    height: 806px;
+    height: 796px;
     border: 3px solid black;
 }
 
 .element{
     width: 79px;
-    height: 77px;
+    height: 76px;
     display: inline-block;
     outline: 1px solid black;
     overflow: hidden;
@@ -22,7 +22,7 @@ body{
 
 .chemicalBlockGroup{
     width: 79px;
-    height: 77px;
+    height: 76px;
     display: inline-block;
     outline: 1px solid black;
     font-family: "Monaco", monospace;
@@ -32,7 +32,7 @@ body{
 
 .empty{
     width: 79px;
-    height: 77px;
+    height: 76px;
     display: inline-block;
     outline: 1px;
 }
@@ -85,7 +85,7 @@ body{
 .symbol{
     font-size: 30px;
     font-weight: bold;
-    padding-bottom: 3px;
+    padding-bottom: 5px;
 }
 
 .elemFont{
@@ -94,5 +94,5 @@ body{
 
 .numFont{
     font-size: 15px;
-    padding-bottom: 3px;
+    padding-bottom: 2px;
 }
